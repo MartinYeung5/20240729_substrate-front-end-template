@@ -1,4 +1,5 @@
-# Substrate Front End Template
+# 20240729_substrate-front-end-template
+github: 
 
 # 20240729
 ## git remote remove origin

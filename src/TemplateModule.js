@@ -7,7 +7,8 @@ import { TxButton } from './substrate-lib/components'
 function Main(props) {
   const { api } = useSubstrateState()
 
-  // The transaction submission status
+  // The transaction submission status, 
+  // default status is ''
   const [status, setStatus] = useState('')
 
   // The currently stored value

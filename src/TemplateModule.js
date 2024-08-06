@@ -65,7 +65,7 @@ function Main(props) {
             }}
           />
         </Form.Field>
-        <div style={{ overflowWrap: 'break-word' }}>{status}</div>
+        <div style={{ overflowWrap: 'break-word' }}>Status: {status}</div>
       </Form>
     </Grid.Column>
   )

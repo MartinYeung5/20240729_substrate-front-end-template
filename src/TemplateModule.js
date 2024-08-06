@@ -10,6 +10,8 @@ function Main(props) {
   // The transaction submission status, 
   // default status is ''
   const [status, setStatus] = useState('')
+  console.log("setStatus =" + setStatus);
+  console.log("status =" + status);
 
   // The currently stored value
   const [currentValue, setCurrentValue] = useState(0)
